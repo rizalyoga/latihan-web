@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Design Website</title>
+    <link rel="stylesheet" href="/css/contact-style.css">
+    <link rel="stylesheet" href="/css/home-responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="assets/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+        <h1>Contact US</h1>
+    </section>
+
+     <!-- ----------CONTACT US------------ -->
+
+     <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.9645960039165!2d112.6130610706716!3d-7.673360288028192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7877f9707bf633%3A0x1f850ef0140200d1!2sWarkop!5e0!3m2!1sen!2sid!4v1626351041344!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+     </section>
+
+     <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Mojokerto, Jawa Timur,IND</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+62 1234509865192</h5>
+                        <p>Kamis, Juli 19.18</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>yogaremz@gmail.com</h5>
+                        <p>Email US your query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+
+                <form action="form-handler.php" method="POST">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+     </section>
+
+     
+
+        
+
+     <!-- -----FOOTER------- -->
+
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae possimus quo eligendi voluptas iste in quos porro doloribus.
+        <br>Recusandae possimus quo eligendi voluptas iste in quos porro doloribus. </p>
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Achmad Rizal Yogaswara</p>
+     </section>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
