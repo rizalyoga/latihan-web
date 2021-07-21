@@ -35,6 +35,11 @@
   margin-top: -60px;
 } */
 
+.logo {
+  width: 40px;
+  padding-right: 5px;
+}
+
 #project {
   background-color: #8397d3;
 }
@@ -47,9 +52,9 @@
   cursor: pointer;
 }
 
-.card:hover {
+/* .card:hover {
   margin-top: -10px;
-}
+} */
 
 #contact svg {
   width: 100%;
@@ -67,6 +72,10 @@ section {
 @media (maxwidth: 768px) {
   .jumbotron svg {
     margin-bottom: -1px;
+  }
+
+  .logo {
+    display: none;
   }
 }
 
