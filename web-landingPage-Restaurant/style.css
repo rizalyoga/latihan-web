@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=STIX+Two+Math&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   HEADDER                                  */
+/* -------------------------------------------------------------------------- */
+#header {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://www.foodphotographyprops.co.uk/wp-content/uploads/2015/12/LOAP-Spring-Rolls-WEB-10-Copy.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: rgba(4, 9, 30, 0.8);
+}
+
+.logoCompany a {
+  font-family: "STIX Two Math", serif;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.nav-links ul {
+  display: flex;
+  cursor: pointer;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: rgb(255, 250, 244);
+}
+.nav-links ul li a:hover {
+  color: white;
+}
+
+.desc {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.desc a {
+  border: 2px solid #fff;
+  padding: 10px 10px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  /* margin-left: -85px; */
+}
+
+.desc a:hover {
+  background: white;
+  color: black;
+}
+
+.desc h2 {
+  color: #fff;
+  font-family: "STIX Two Math", serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+  #nav-bar {
+    justify-content: center;
+    background: rgba(4, 9, 30, 1);
+    z-index: 2;
+  }
+
+  .logoCompany a {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .desc h2 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .desc a {
+    font-size: 12px;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  ABOUT US                                  */
+/* -------------------------------------------------------------------------- */
+
+.heading {
+  font-family: "STIX Two Math", serif;
+  margin-top: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SERVICES                                  */
+/* -------------------------------------------------------------------------- */
+#services {
+  background: rgba(4, 9, 30, 0.4);
+  color: #fff;
+}
+
+.card {
+  background: transparent;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 RESERVATION                                */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  #col-reservation {
+    flex-direction: column;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   CONTACT                                  */
+/* -------------------------------------------------------------------------- */
+#contact {
+  background: rgba(4, 9, 30, 0.4);
+}
+
+#contact .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact.row-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-contact {
+  padding: 0 3px;
+}
+
+@media (max-width: 768px) {
+  .col-contacts {
+    flex-direction: column;
+  }
+
+  .col-contact {
+    padding: 0 30px;
+  }
+
+  .col-mesagges {
+    max-width: 93%;
+    margin: 0 auto;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
+footer {
+  /* background-color: rgb(204, 203, 203); */
+  background-color: rgba(4, 9, 30, 0.9);
+  color: #fff;
+}
+
+footer h4 {
+  margin-left: 8px;
+  font-family: "STIX Two Math", serif;
+}
+
+.col-logo {
+  text-align: center;
+}
+
+.icons-socmed a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-left: -5px;
+}
+
+.logoCompany-footer {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .col-logo {
+    text-align: start;
+    margin-top: -20px;
+    padding-bottom: 30px;
+  }
+
+  .icons-socmed {
+    margin-left: 0px;
+    text-align: start;
+  }
+
+  .desc-socmed {
+    display: none;
+  }
+}
