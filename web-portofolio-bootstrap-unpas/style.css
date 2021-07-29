@@ -62,11 +62,24 @@
 
 footer {
   background-color: #252839;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 section {
   padding-top: 5rem;
+}
+
+.icon-sosmed {
+  padding-bottom: 6px;
+}
+
+.icon-sosmed i {
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.icon-sosmed i:hover {
+  color: #8397d3;
 }
 
 @media (maxwidth: 768px) {

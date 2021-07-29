@@ -20,4 +20,4 @@ sr.reveal(".col-md-4", { delay: 200 });
 
 // Scroll Form
 sr.reveal("form", { delay: 300 });
-sr.reveal("button", { origin: "left", delay: 600 });
+sr.reveal("button", { origin: "left", delay: 400 });
