@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0 100px 0 100px;
+}
+
+/* --------------------------------- NAVBAR --------------------------------- */
+
+.row-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-logo img {
+  margin: auto 0;
+  width: 200px;
+  cursor: pointer;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-bar ul li {
+  padding: 0 15px 0 15px;
+  cursor: pointer;
+  color: grey;
+}
+
+.menu-bar ul li:hover {
+  color: #ff4b34;
+}
+
+#btn-analystic {
+  background-color: #ff4b34;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+#btn-analystic:hover {
+  background-color: #08114a;
+}
+
+/* ------------------------------- banner------------------------------ */
+
+.row-banner {
+  display: flex;
+}
+
+.col-left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  /* align-items: center;
+  justify-content: center; */
+  width: 50%;
+}
+
+.col-left p {
+  color: grey;
+  line-height: 25px;
+}
+
+.col-left .tagline {
+  font-family: "Dangrek", cursive;
+  font-size: 70px;
+  padding-bottom: 15px;
+  line-height: 70px;
+  color: #08114a;
+}
+
+.col-left .btn-banner {
+  float: left;
+  margin-top: 30px;
+}
+
+.btn-banner #read-more {
+  background-color: #08114a;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-banner #read-more:hover {
+  background-color: #030825;
+}
+
+.btn-banner #touch {
+  background-color: #ff4b34;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  color: white;
+  margin-left: 5px;
+}
+
+.btn-banner #touch:hover {
+  background-color: red;
+}
+
+.col-right {
+  width: 50%;
+}
+
+.ilustration {
+  width: 100%;
+}
